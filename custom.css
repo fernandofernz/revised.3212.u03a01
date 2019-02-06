@@ -1,26 +1,27 @@
+/* body selector and font family from Google fonts */
 body {
-    background: #f5d9d5;
+    background: #e8eae8;;
     font-family: "Sarabun","Roboto", sans-serif;
 }
-
+/* id NavBar selector */
 #navBar {
     font-weight: 100; 
-    font-size: 1.5rem;
-       
+    font-size: 1.5rem; 
 }
 
 #navBar .nav-link {
     color: white;
 }
-
+/* pseudo : hover  */
 #navBar .nav-link:hover {
     color: #EA1C2C;
 }
 
 #navBar .navbar-brand {
-    color: #EA1C2C;
+    color: rgb(52, 234, 28);
     font-size: 1.5rem;
 }
+/*media query */
 @media (max-width: 1200px) {
     #headerMain h1 {
         font-weight: 100;
@@ -30,15 +31,16 @@ body {
         font-size: 2rem;
     }
 }
-
+/*  id haeaderMain selector color of header */
 #headerMain span {
-    color: #EA1C2C;
+    color: rgb(52, 234, 28);
 }
 
 #headerMain h1 {
     font-weight: 100;
     font-size: 4rem;
 }
+/*  styles for table*/
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -49,9 +51,9 @@ td, th {
     background-color: #dddddd;
   }
 
-
+/* class slector blurb*/
 .blurb h2 {
-   color: #EA1C2C;
+   color: rgb(52, 234, 28);;
    font-weight: 100;
    font-size: 2.5rem;
 }
@@ -62,12 +64,12 @@ td, th {
     font-size: 1.125rem;
     line-height: 2;
 }
-
+/* class selector Content */
 .content {
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
+/* class selector scrolled */
 .navbar.scrolled {
     background: rgb(222,192,222);
     transition: background 500ms;
